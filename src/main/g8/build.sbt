@@ -14,6 +14,8 @@ inThisBuild(
     semanticdbEnabled := true,
     semanticdbVersion := scalafixSemanticdb.revision,
     scalafixDependencies += "com.github.liancheng" %% "organize-imports" % "0.6.0",
+    sonatypeCredentialHost := "s01.oss.sonatype.org",
+    sonatypeRepository := "https://s01.oss.sonatype.org/service/local",
     startYear := Some(2023),
     licenses += ("MIT", new URL("https://opensource.org/licenses/MIT")),
     homepage := Some(url("$homepage$")),
