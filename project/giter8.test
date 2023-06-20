@@ -1,0 +1,3 @@
+# test assembly
+> assembly
+$ exists target/$scala_version$/sbt-test.jar

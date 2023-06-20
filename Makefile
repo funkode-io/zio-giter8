@@ -36,9 +36,9 @@ ifeq ("$(wildcard $(AMM))", "")
 endif
 	$(AMM)
 
-.PHONY: run
-run:
-	sbt arangodbhttp/run
+.PHONY: test
+test:
+	sbt g8Test
 
 .PHONY: dependencyTree
 dependencyTree:
